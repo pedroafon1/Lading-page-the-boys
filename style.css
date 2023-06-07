@@ -7,6 +7,8 @@
     font-family: 'Ubuntu', sans-serif;
     list-style: none;
     text-decoration: none;
+    
+    
 }
 /* Definindo background */
 body {
@@ -34,6 +36,7 @@ header .logo {
     gap: 40px;
 }
 
+/* Estilizando os botões e colocando transição */
 .navegation ul li a{
     color: #fff;
     font-size: 18px;
