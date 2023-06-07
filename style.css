@@ -8,13 +8,12 @@
     list-style: none;
     text-decoration: none;
     
-    
 }
 /* Definindo background */
 body {
     background: url(img/bg.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 /* Estilizando o cabeçalho deixando cada um no seu lugar */
@@ -26,7 +25,7 @@ header {
 
 }
 /* Diminuindo tamanho da logo */
-header .logo {
+.logo {
     width: 150px;
 }
 /* Estilizando opções do menu */
@@ -85,15 +84,14 @@ main section .logoboys {
 
 main section .btn-box {
     display: flex;
-    align-items: center;
     gap: 20px;
 }
 
 .btn-box .btn {
     padding: 20px 45px;
     background: #425265;
-    color: #fff;
     margin-bottom: 2em;
+    color: #fff;
     border-bottom: 2px solid #fff;
     transition: all .3s;
 }
@@ -114,16 +112,15 @@ main section .text {
 .btn-box2 {
     display: flex;
     align-items: center;
-    color: #fff;
-    background: #0f79af;
-    padding: 15px 45px;
-    margin-top: 2em;
-    border-radius: 5px 5px 0 0;
-    border-bottom: 4px solid #fff;
-    font-size: 25px;
     gap: 15px;
-    cursor: pointer;
-    transform: all .6s;
+    padding: 15px 45px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 2em;
+    font-size: 25px;
+    color: #fff;
+    border-bottom: 4px solid #fff;
+    background: #0f79af;
+    transition: all .3s;
 }
 
 .btn-box2:hover {
@@ -134,15 +131,6 @@ main section .text {
     width: 1.4em;
     filter: invert(1);
 }
-
-footer .cards {
-    display: flex;
-    align-items: center;
-    flex-flow: row;
-    margin-left: 23em;
-    margin-top: 1.5em;
-}
-
 
 footer .cards{
     display: flex;
