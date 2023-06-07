@@ -1,66 +1,53 @@
-@import url('https://fonts.googleapis.com/css2? family= Ubuntu:wght@400;500;700 & display=swap');
-/* Zerando margens e espaçamentos, definindo fontes e decorações */
-* {
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
     list-style: none;
     text-decoration: none;
-    
 }
-/* Definindo background */
-body {
+body{
     background: url(img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
 }
-/* Estilizando o cabeçalho deixando cada um no seu lugar */
-header {
+header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 25px 48px;
-
 }
-/* Diminuindo tamanho da logo */
-.logo {
+.logo{
     width: 150px;
 }
-/* Estilizando opções do menu */
-.navegation ul {
+.navigation ul{
     display: flex;
     align-items: center;
     gap: 40px;
 }
-
-/* Estilizando os botões e colocando transição */
-.navegation ul li a{
+.navigation ul li a{
     color: #fff;
     font-size: 18px;
     padding-bottom: 5px;
     border-bottom: 2px solid transparent;
     transition: all .6s;
 }
-
-.navegation ul li a:hover {
+.navigation ul li a:hover{
     border-bottom: 2px solid #138ecc;
 }
-
-.navegation .search {
+.navigation .search{
     width: 22px;
     cursor: pointer;
     filter: invert(1);
 }
-
-
-.navegation .perfil {
-    width: 50px;
+.navigation .perfil{
+    width: 40px;
     cursor: pointer;
 }
 
-/* Main */
+/*Main*/
 
 main{
     display: flex;
@@ -75,15 +62,14 @@ main section{
     align-items: flex-start;
     margin-left: 2.5em;
 }
-main section .logoboys{
-    width: 30em;
+main section .logoBoys{
+    width: 35em;
     margin: 3em 0;
 }
 main section .btn-box{
     display: flex;
     gap: 20px;
 }
-
 .btn-box .btn{
     padding: 20px 45px;
     background: #425265;
@@ -92,21 +78,17 @@ main section .btn-box{
     border-bottom: 2px solid #fff;
     transition: all .3s;
 }
-
-.btn-box .btn:hover {
+.btn-box .btn:hover{
     background: #2d3846;
 }
-
-.btn-box .btn:focus {
+.btn-box .btn:focus{
     background: #2d3846;
 }
-
-main section .text {
+main section .text{
     color: #fff;
     line-height: 22px;
 }
-
-.btn-box2 {
+.btn-box2{
     display: flex;
     align-items: center;
     gap: 15px;
@@ -119,16 +101,13 @@ main section .text {
     background: #0f79af;
     transition: all .3s;
 }
-
-.btn-box2:hover {
+.btn-box2:hover{
     background: #138ecc;
 }
-
-.btn-box2 .play {
+.btn-box2 .play{
     width: 1.4em;
     filter: invert(1);
 }
-
 footer .cards{
     display: flex;
     flex-flow: row;
